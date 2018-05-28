@@ -1,0 +1,179 @@
+@media (max-width:450px){
+    h1{
+        font-size: small;  
+    }
+    .containerHeader{
+        margin-top: 0!important;   
+    }
+    .mainContainer{
+        width: 100%;
+        margin:0 auto;
+        height: 420px!important;
+        background-size: 300px!important;
+    }
+}
+
+@media (max-width:767px){
+    nav #navBigScreen,
+    .bigFoot{
+       display: none;
+    }
+    
+    nav #navShortScreen{
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        font-size: xx-large;
+        margin-top: -10px;
+    }
+    .containerHeader span img{
+        margin-top: 2rem;
+        width: 85px;
+    }
+    .containerHeader{
+        margin-top: 1.3em;   
+    }
+    .mainContainer{
+        height: 500px;
+        background-size: 500px;
+    }
+}
+
+@media (min-width:768px){
+    nav #navShortScreen,
+    .shortFoot{
+        display: none;
+    }
+    nav #popNav{
+        display: none;
+    }
+    .containerHeader{
+        margin-top: 2em;   
+    }
+    .mainContainer{
+        background-size: 500px;
+        height: 500px;
+    }
+    .containerPronote  ul li{
+        width: 25%;
+        border-top:2px solid white;
+        border-right: 2px solid white;
+        min-height: 200px;
+        box-sizing: border-box;
+    }
+    .containerPronote  ul li:last-child{
+        border-right: none;
+    }
+    
+    .containerPronote  ul .promoteIphone{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/iphone_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+    .containerPronote  ul .promoteWatch{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/macbook_pro_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+    .containerPronote  ul .promoteIpad{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/airpods_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+    .containerPronote  ul .promoteMacbook{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/clips_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+
+    
+}
+
+@media (max-width:1068px){
+    .containerPronote  ul li{
+        width: 50%;
+        border-top:2px solid white;
+        border-right: 2px solid white;
+        min-height: 200px;
+        box-sizing: border-box;
+    }
+    .containerPronote  ul li:last-child{
+        border-right: none;
+    }
+    
+    .containerPronote  ul .promoteIphone{
+        background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/iphone_medium.jpg");
+        background-position: center;
+
+    }
+    .containerPronote  ul .promoteWatch{
+        background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/macbook_pro_medium.jpg");
+        background-position: center;
+
+    }
+    .containerPronote  ul .promoteIpad{
+        background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/airpods_medium.jpg");
+        background-position: center;
+
+    }
+    .containerPronote  ul .promoteMacbook{
+        background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/clips_medium.jpg");
+        background-position: center;
+
+    }
+}
+
+@media(max-width:733px){
+        .containerPronote  ul li{
+        width: 100%;
+        border-top:2px solid white;
+        border-right: 2px solid white;
+        min-height: 200px;
+        box-sizing: border-box;
+    }
+    .containerPronote  ul li:last-child{
+        border-right: none;
+    }
+    
+    .containerPronote  ul .promoteIphone{
+        background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/iphone_small.jpg");
+
+    }
+    .containerPronote  ul .promoteWatch{
+         background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/macbook_pro_small.jpg");
+
+    }
+    .containerPronote  ul .promoteIpad{
+        background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/airpods_small.jpg");
+
+    }
+    .containerPronote  ul .promoteMacbook{
+        background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("img/clips_small.jpg");
+
+    }    
+}
